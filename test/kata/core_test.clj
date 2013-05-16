@@ -1,6 +1,7 @@
 (ns kata.core-test
   (:require [clojure.test :refer :all]
-            [kata.core :refer :all]))
+            [kata.core :refer :all] 
+            :reload-all :verbose))
 
 (deftest kata-test
   (testing "Wir werfen immer 0 Pins"
@@ -30,3 +31,10 @@
   (testing "Perfect game"
     (is  (= 300 (score (repeat 10)))))
   )			
+
+(deftest simple-tests
+  (testing "Bonus von 5 5 1"
+    (is (= true (bonus? '(5 5 1)))))
+  (testing "Framescore von 5 5 1"
+    (is (= 11 (frame-score '(5 5 1))))) 
+  )
