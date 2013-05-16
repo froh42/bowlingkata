@@ -1,23 +1,22 @@
 (ns kata.core)
 
-(defn third [s] (nth s 2)) 
+(defn strike? [rolls]  (= 10 (first rolls)))
+(defn spare?  [rolls]  (= 10 (+ (first rolls)) (second rolls)))
+(defn bonus?  [rolls]  (or (strike? rolls) (spare? rolls)))
 
-(defn remaining-rolls [rolls]
-  (cond
-   (= 10 (first rolls))  (rest rolls)
-   :else                 (nthrest rolls 2)))
+(defn rest-rolls [rolls]
+  (if (strike? rolls)
+    (rest rolls)
+    (nthrest rolls 2))
 
 (defn frame-score [rolls]
-  (def framesum (+ (first rolls) (second rolls)))
-  (cond
-   (= 10 (first rolls))		(+ 10 (second rolls) (third rolls))		
-   (= 10 framesum) 			(+ framesum (third rolls))
-   :else framesum))
+  (reduce + (take  (if (bonus? rolls)) 3 2)) rolls)))
 
-(defn score-inner [rolls remaining-frames] 
-  (cond
-   (zero? remaining-frames) 0
-   :else (+ (frame-score rolls)			   
-            (score-inner (remaining-rolls rolls) (dec remaining-frames)))))
-
-(defn score [rolls] (score-inner rolls 10))
+(defn score 
+  ( loop [rolls rolls
+          n 10
+          acc 0]
+    (if (zero? remaining-frames)
+      acc
+      (recur (rest-rolls rolls) (dec n) (+ acc (frame-score rolls))))))
+  
