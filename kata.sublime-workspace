@@ -87,16 +87,28 @@
 		"selected_items":
 		[
 			[
-				"ret",
-				"Build: Re-test"
-			],
-			[
 				"test",
 				"Build: Test"
 			],
 			[
+				"",
+				"About"
+			],
+			[
+				"tst",
+				"View: Toggle Status Bar"
+			],
+			[
 				"repl",
 				"SublimeREPL: Clojure"
+			],
+			[
+				"run",
+				"Build: Run"
+			],
+			[
+				"ret",
+				"Build: Re-test"
 			],
 			[
 				"syclo",
@@ -215,10 +227,6 @@
 				"Set Syntax: Markdown"
 			],
 			[
-				"",
-				"About"
-			],
-			[
 				"Package Control: ",
 				"Package Control: Install Package"
 			]
@@ -240,6 +248,44 @@
 	},
 	"file_history":
 	[
+		"/Users/froh/dev/clj/profil/doc/linkliste.txt",
+		"/Users/froh/dev/clj/profil/resources/froh/1987-1988 Autmatsche Lichtsteuerung für Squashzentrum.md",
+		"/Users/froh/dev/clj/profil/resources/froh/2011-2013 CBS.md",
+		"/Users/froh/dev/clj/profil/resources/froh/2010-2011 Home and Business Automation.md",
+		"/Users/froh/dev/clj/profil/resources/froh/2000-2000 Windows Kernel Firewall.md",
+		"/Users/froh/dev/clj/profil/resources/froh/2009-2010 Diagnosewerkzeug.md",
+		"/Users/froh/dev/clj/profil/resources/froh/1987-1988 Zusatztools für Ventura Publisher.md",
+		"/Users/froh/dev/clj/profil/resources/froh/1991-1993 Kundenspezifische Codebibliothek.md",
+		"/Users/froh/dev/clj/profil/resources/froh/1994-1995 Installation des News Servers INN auf HP:UX.md",
+		"/Users/froh/dev/clj/profil/resources/froh/1994-1995 Verwaltung des NNTP-Servers und Migration von Epix auf HPUX.md",
+		"/Users/froh/dev/clj/profil/resources/froh/1995-1995 Postscript-Backend für CGM-Konverter.md",
+		"/Users/froh/dev/clj/profil/resources/froh/1996-1996 Administration Intranet-WWW-Server.md",
+		"/Users/froh/dev/clj/profil/resources/froh/1996-1997 SNMP-Managementsystem für ISDN-Terminal Adapter.md",
+		"/Users/froh/dev/clj/profil/resources/froh/1997-1997 Verwaltungssystem für WWW-Server.md",
+		"/Users/froh/dev/clj/profil/resources/froh/1997-1999 WWW-Shopping Cart System und Application Server.md",
+		"/Users/froh/dev/clj/profil/resources/froh/1998-1999 Verwaltungssystem für Telefonbucheinträge.md",
+		"/Users/froh/dev/clj/profil/resources/froh/2003-2003 Managementsoftware für Zutrittskontrollsysteme.md",
+		"/Users/froh/dev/clj/profil/resources/froh/2004-2004 Evaluation Versionskontrollsystem.md",
+		"/Users/froh/dev/clj/profil/resources/froh/2004-2005 Analysearbeit.md",
+		"/Users/froh/dev/clj/profil/resources/froh/2005-2005 Tools Backup, Password Changer, Database Install.md",
+		"/Users/froh/dev/clj/profil/resources/froh/2000-2006 Upgrade der XML-basierten Kundenkonfigurationen (neben den Hauptprojekten).md",
+		"/Users/froh/dev/clj/profil/resources/froh/2004-2004 Konfigurationsdatenmanager, Kommunikationsbibliothek.md",
+		"/Users/froh/dev/clj/profil/resources/froh/2007-2008 Managementsystem für Zutrisskontrollpanel.md",
+		"/Users/froh/dev/clj/profil/resources/froh/1995-1996 Drucksubsystem für Prozeßsteuerungssoftware.md",
+		"/Users/froh/dev/clj/profil/resources/froh/2000-2002 Subsystem zur schnellen Verarbeitung von Events.md",
+		"/Users/froh/dev/clj/profil/resources/froh/2005-2005 Erweiterter Konfigurationsupgrade.md",
+		"/Users/froh/dev/clj/profil/resources/froh/1995-1995 Verwaltung des ftp-Server der Universität ErlangenNürnberg.md",
+		"/Users/froh/dev/clj/profil/resources/froh/2008-2009 Diagnosewerkzeug.md",
+		"/Users/froh/dev/clj/profil/resources/froh/2006-2007 Lizenzmanagementsystem.md",
+		"/Users/froh/dev/clj/profil/resources/froh/2004-2005 Evaluation Versionskontrollsystem.md",
+		"/Users/froh/dev/clj/profil/resources/froh/1995-1995 Postscript-Backend für CGM-Konverter.md",
+		"/Users/froh/dev/clj/profil/resources/froh/1994-1994 Kommunikationsnetz Franken e.V.md",
+		"/Users/froh/dev/clj/profil/resources/froh/1995-1995 Postscript-Backend für allgemeine CGM-Library.md",
+		"/Users/froh/dev/clj/kata/test/kata/core_test.clj",
+		"/Users/froh/dev/clj/kata/src/kata/core.clj",
+		"/Users/froh/dev/clj/profil/resources/froh/1994-1994 Kommunikationsnetz Franken e.V..md",
+		"/Users/froh/dev/clj/profil/resources/froh/1994-1994 Internet-Provider für Privatpersonen.md",
+		"/Users/froh/dev/clj/profil/resources/froh/1991-1993 Weiterentwicklung und Pflege einer Basisbibliothek.md",
 		"/Users/froh/dev/clj/test/project.clj",
 		"/Users/froh/dev/clj/clojure-koans/src/koans/20_partition.clj",
 		"/Users/froh/dev/clj/clojure-koans/project.clj",
@@ -329,45 +375,7 @@
 		"/Users/froh/dev/multi/src/main.js",
 		"/Users/froh/dev/multi/node_modules/.bin/static",
 		"/Users/froh/dev/multi/ztest.js",
-		"/Users/froh/dev/multi/selenium/testsuite.js",
-		"/Users/froh/dev/multi/src/ntest/ztest.js",
-		"/Users/froh/dev/multi/src/testModule.js",
-		"/Users/froh/dev/multi/.git/config",
-		"/Users/froh/dev/multi/src/test/some-test.js",
-		"/Users/froh/dev/multi/src/test/amd-test.js",
-		"/Users/froh/dev/multi/src/viewmodel.js",
-		"/Users/froh/dev/multi/spec/testamd.js",
-		"/Users/froh/dev/multi/spec/buster.js",
-		"/Users/froh/dev/github/buster-amd/demo/lab/buster.js",
-		"/Users/froh/dev/multi/phantomjs-buster.js",
-		"/Users/froh/.profile",
-		"/Users/froh/dev/multi/src/lib/knockout-2.1.0.debug.js",
-		"/Users/froh/dev/multi/node_modules/buster/node_modules/buster-test-cli/lib/runners/browser/progress-reporter.js",
-		"/Users/froh/dev/multi/src/js/require.js",
-		"/Users/froh/dev/multi/node_modules/buster-amd/lib/buster-amd.js",
-		"/Users/froh/dev/multi/node_modules/buster/script/phantom.js",
-		"/Users/froh/dev/github/buster-amd/lib/buster-amd.js",
-		"/Users/froh/dev/multi/src/lib/require.js",
-		"/Users/froh/dev/multi/spec/foobarTest.js",
-		"/Users/froh/dev/multi/spec/viewmodelTest.js",
-		"/Users/froh/dev/multi/src/foobar.js",
-		"/Users/froh/dev/multi/src/lib/bootstrap/README.md",
-		"/Users/froh/dev/multi/src/dummy.js",
-		"/Users/froh/dev/multi/spec/multiMainTest.js",
-		"/Users/froh/dev/multi/spec/multiStorageTest.js",
-		"/Users/froh/Desktop/sms.txt",
-		"/Users/froh/web-backup/frohwalt.de/simo/index.html",
-		"/Users/froh/dev/multi/spec/nodeTest.js",
-		"/Users/froh/web-backup/index.html",
-		"/Users/froh/Library/Application Support/Sublime Text 2/Packages/Terminal/Default (OSX).sublime-keymap",
-		"/Users/froh/dev/multi/functions.sh",
-		"/Users/froh/dev/multi/test.sh",
-		"/Users/froh/dev/multi/spec/multiTest.js",
-		"/Users/froh/dev/multi/.git/COMMIT_EDITMSG",
-		"/Users/froh/dev/multi/node_modules/.bin/buster",
-		"/Users/froh/dev/multi/LICENSE",
-		"/Users/froh/dev/multi/node_modules/growl/package.json",
-		"/Users/froh/dev/multi/node_modules/buster/bin/buster"
+		"/Users/froh/dev/multi/selenium/testsuite.js"
 	],
 	"find":
 	{
@@ -513,7 +521,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 262.0
+		"height": 124.0
 	},
 	"replace":
 	{
@@ -525,6 +533,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"core_test",
+				"test/kata/core_test.clj"
+			],
 			[
 				"test",
 				"test/test/core_test.clj"
@@ -664,6 +676,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 214.0,
-	"status_bar_visible": true
+	"side_bar_width": 466.0,
+	"status_bar_visible": false
 }

@@ -1,8 +1,8 @@
 (ns kata.core)
 
-(defn strike? [rolls]  (= 10 (first rolls)))
-(defn spare?  [rolls]  (= 10 (+ (first rolls) (second rolls))))
-(defn bonus?  [rolls]  (or (strike? rolls) (spare? rolls)))
+(defn strike? [[r1]]  (= 10 r1))
+(defn spare?  [[r1 r2]]  (= 10 (+ r1 r2)))
+(defn bonus?  [rolls]  (or(strike? rolls) (spare? rolls)))
 
 ; A frame (other than the last one) can consist of 1 or 2 rolls. One
 ; roll if the first one is a strike, 2 rolls with a spare or with
